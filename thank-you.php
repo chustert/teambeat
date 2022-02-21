@@ -215,7 +215,7 @@ for ($t = 1; $t <= 5 ; $t++) {
 
                 // Build POST request:
                 $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-                $recaptcha_secret = '6Lc0vdYaAAAAABwh2xT7MZayh3fdzYlg4Go33TBj';
+                $recaptcha_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
                 $recaptcha_response = $_POST['recaptcha_response'];
 
                 // Make and decode POST request:
