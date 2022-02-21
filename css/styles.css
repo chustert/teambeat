@@ -1,0 +1,532 @@
+@font-face {
+  font-family: FranklinGothicBookReg;
+  src: url(../fonts/Franklin-Gothic-Book-Regular.ttf);
+}
+
+@font-face {
+  font-family: Coolvetica;
+  src: url(../fonts/coolvetica-rg.ttf);
+}
+
+html,
+body {
+	font-family: FranklinGothicBookReg;
+	color: #000;
+	font-size: 18px;
+	height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main > .container {
+  padding: 130px 15px 40px;
+}
+
+.vertical-center {
+  /*min-height: 100%;*/  /* Fallback for browsers do NOT support vh unit */
+  /*min-height: 100vh;*/ /* These two lines are counted as one :-)       */
+
+  min-height: 80%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 80vh; /* These two lines are counted as one :-)       */  
+
+  display: flex;
+  align-items: center;
+}
+
+.vertical-center-chart {
+    min-height: 50%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 50vh; /* These two lines are counted as one :-)       */  
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .chart-container {
+    position: relative;
+    margin: auto;
+    height: 80vh;
+    width: 80vw;
+  }
+}
+
+
+
+
+.login-min-width {
+	min-width: 330px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-register input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-register > .register-company {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.form-register input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.form-register input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.grecaptcha-badge { visibility: hidden; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-brand {
+	font-family: Coolvetica;
+    font-size: 32px;
+}
+
+.bg-light {
+    background-color: #f1f1f1!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-nav .nav-link {
+	    padding-right: 1rem;
+	    padding-left: 1rem;
+	}
+}
+
+h1 {
+  font-family: FranklinGothicBookReg;
+  line-height: 1.2;
+  /*margin-left: -25px!important;*/
+}
+
+.page-header {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/*.day-page-header {
+   margin-left: 40px;
+   margin-bottom: -25px;
+}*/
+
+@media only screen and (max-width: 580px) {
+  h1 {
+  margin-left: 0px!important;
+  }
+}
+
+@media only screen and (max-width: 467px) {
+  h1 {
+    margin-left: 0px!important;
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: 34px;
+  }
+  .day-page-header {
+   margin-bottom: 5px;
+   font-size: 1.3rem;
+  }
+}
+
+/* navigation bar */
+#scanfcode
+{
+  border-radius:0px;
+  background:#f1f1f1;
+  padding:10px;
+  font-size:16px;
+}
+/* logo or main heading */
+#logo
+{
+  font-family: Coolvetica;
+  font-size:32px;
+  font-weight:bolder;
+  color:#000;
+  letter-spacing:2px;
+}
+/* navigation links*/
+#link a
+{
+  color:#000;
+  margin: 0 10px 0 10px;
+  letter-spacing:1.5px;
+}
+/* navigation link with right border */
+#first-link
+{
+  padding-right:6px;
+  border-right:solid 1px #ccc;
+}
+/* sign up link button and toggle button */
+#button-link ,#toogle-button
+{
+  color:#f1f1f1;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  background-color: #d67e37;
+  line-height: 17px;
+}
+#button-link a
+{
+  color:#f2f2f2;
+}
+
+.btn-block {
+    max-width: 330px;
+    margin-top: 25px;
+    }
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 15px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+
+.rounded-3 {
+  border-radius: .3rem!important;
+}
+
+
+
+
+
+
+
+
+
+
+/****************************************************************/
+/*RADIO BUTTON IMAGES*/
+.cc-group {
+	margin: 0 30px 0 0;
+	display: inline;
+}
+
+.cc-group:first-child {
+  margin: 0 30px 0 0;
+}
+
+.cc-group:last-child {
+  margin: 0 0 0 0;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 580px) {
+  .cc-group {
+    margin: 0 5px 0 0;
+    display: inline;
+  }
+
+  .cc-group:first-child {
+    margin: 0 5px 0 0;
+  }
+
+  .cc-group:last-child {
+    margin: 0 0 0 0px;
+  }
+}
+
+.row {
+  justify-content: center;
+}
+
+.cc-selector input{
+    padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+            display: none;
+}
+
+.smiley-bg {
+	/*background-image:url(../images/blank-bg.png);*/
+  background-color: #dedede;
+  border-radius: 25px;
+}
+
+.cc-selector input:active +.drinkcard-cc{opacity: .9;}
+.cc-selector input:checked +.drinkcard-cc{
+/*    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;*/
+            /*background-image:url(../images/blank-bg-dark.png);*/
+            background-color: #adabab;
+            border-radius: 25px;
+}
+.drinkcard-cc{
+    cursor:pointer;
+    display:inline-block;
+    min-width: 100px;
+    width:100%;
+    height:100%;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+/*    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(1) opacity(.7);*/
+}
+.drinkcard-cc:hover{
+ /*   -webkit-filter: brightness(.2) opacity(.9);
+       -moz-filter: brightness(.2) opacity(.9);
+            filter: brightness(.2) opacity(.9);*/
+            /*background-image:url(../images/blank-bg-dark.png);*/
+            background-color: #adabab;
+            border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+.label-font-positioning {
+	position: relative;
+  /*top: 56px;*/
+  /*padding: 11px 14px;*/
+  /*font-weight: 600;*/
+  padding: 1.25rem;
+}
+
+.label-smiley-positioning {
+	position: relative;
+	top: 28px;
+}
+
+/* Extras */
+a:visited{color:#888}
+a{color:#444;text-decoration:none;}
+p{margin-bottom:.3em;}
+
+/****************************************************************/
+
+
+.btn.disabled, .btn:disabled {
+    background: #3bce298c;
+    color: #fff;
+    border-radius: inherit;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 820px) {
+  .pagination-small {
+    padding: .25rem .5rem;
+    font-size: .775rem;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (max-width: 819px) {
+  .pagination-sm-20 {
+    display: inline;
+  }
+}
+
+.pagination li .active_link {
+	background: #047afb80 !important;
+  color: #fff;
+}
+
+.pagination li .greyed-out_link {
+  background: #8e8b8b !important;
+}
+
+.pagination-wrapper {
+  margin-top: 46px;
+}
+
+
+.footer-bottom {
+	/*position: absolute;*/
+    bottom: 0;
+    min-width: 80%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.no-bottom-margin {
+	margin-bottom: 0;
+}
+
+.custom-py {
+  padding-top: 5rem!important;
+}
+
+
+
+/****************************************************************/
+/*SCORE STYLES*/
+
+/* Custom Colored Panels */
+
+.huge {
+    font-size: 40px;
+}
+
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.panel-green .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green a {
+    color: #5cb85c;
+}
+
+.panel-green a:hover {
+    color: #3d8b3d;
+}
+
+.panel-red {
+    border-color: #d9534f;
+}
+
+.panel-red .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red a {
+    color: #d9534f;
+}
+
+.panel-red a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+
+.panel-yellow .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow a {
+    color: #f0ad4e;
+}
+
+.panel-yellow a:hover {
+    color: #df8a13;
+}
+
+.panel-finances {
+    border-color: #62249a;
+}
+.panel-finances>.panel-heading {
+    color: #ffffff;
+    background-color: #62249a;
+    border-color: #62249a;
+}
+
